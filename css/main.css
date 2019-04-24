@@ -1768,7 +1768,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b4b6ff;
+  background: #f02460;
 }
 .feed-link,
 .chat {
@@ -2575,4 +2575,24 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+.post-button {
+  margin-top: 20px;
+  text-align: left;
+}
+.post-button .btn {
+  border-radius: 0;
+  background: transparent;
+  color: #555;
+  font-size: 14px;
+  line-height: 2;
+}
+.post-button a {
+  padding: 0;
+  border: none;
+  border-bottom: 2px solid #666;
+  background: none;
+  color: #666;
+  font-size: 16px;
+  transition-property: border;
 }
